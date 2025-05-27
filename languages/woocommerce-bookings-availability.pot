@@ -1,0 +1,579 @@
+# Copyright (C) 2021 WooCommerce
+# This file is distributed under the same license as the WooCommerce Bookings Availability plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bookings Availability 1.1.19\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-bookings-availability\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-11T12:24:36+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woocommerce-bookings-availability\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Bookings Availability"
+msgstr ""
+
+#. Description of the plugin
+msgid "Show booking availabilities via Gutenberg blocks."
+msgstr ""
+
+#. Author of the plugin
+msgid "WooCommerce"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr ""
+
+#. translators: %s WC download URL link.
+#: woocommerce-bookings-availability.php:39
+msgid "Bookings Availability requires WooCommerce 3.6+ to be installed and active. You can download %s here."
+msgstr ""
+
+#: woocommerce-bookings-availability.php:48
+msgid "Bookings Availability requires WP 5.0+ or Gutenberg plugin."
+msgstr ""
+
+#. translators: %s WC Bookings URL link.
+#: woocommerce-bookings-availability.php:58
+msgid "Bookings Availability requires WooCommerce Bookings. You can purchase %s here."
+msgstr ""
+
+#. translators: %s WC Bookings version number.
+#: woocommerce-bookings-availability.php:68
+msgid "Bookings Availability requires WooCommerce Bookings version %s or higher. Please update your current WooCommerce Bookings version."
+msgstr ""
+
+#: woocommerce-bookings-availability.php:100
+msgid "You've activated Bookings Availability for WooCommerce Bookings!"
+msgstr ""
+
+#. translators: first href link to wc-admin pages, second href link to wc-admin posts
+#: woocommerce-bookings-availability.php:102
+msgid "You can now add a schedule or calendar into your <a href=\"%1$s\">pages</a> and <a href=\"%2$s\">posts</a>.<br><br>"
+msgstr ""
+
+#. translators: button to create a new pages
+#: woocommerce-bookings-availability.php:106
+msgid "Create a page"
+msgstr ""
+
+#. translators: button to create a new post
+#: woocommerce-bookings-availability.php:108
+msgid "Create a post"
+msgstr ""
+
+#: woocommerce-bookings-availability.php:166
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: woocommerce-bookings-availability.php:175
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "Today"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "This week"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "This month"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid " to "
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid " and "
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "No available times this week."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "No available times this month."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "No available times this day."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "We weren't able to load times for this week."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "We weren't able to load times for this month."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "We weren't able to load times for this day."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "All bookable products"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+#: dist/js/bookings-schedule.js:16
+msgid "Specific bookable products"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "Specific categories"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:1
+#: dist/js/bookings-calendar.js:1
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:1
+msgid "Specific resources"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "Select options"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "Book now"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "More details"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "%d slot available"
+msgid_plural "%d slots available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Date"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Time"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Multiple times available"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Price"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "(Sold out)"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "We weren't able to load the store calendar."
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "Try again"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "Sold out"
+msgstr ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "%s additional listing."
+msgid_plural "%s additional listings."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar-frontend.js:6
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule-frontend.js:1
+#: dist/js/bookings-schedule.js:6
+msgid "Load more..."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Remove %s"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Clear all selected items"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Results"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "No items found."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "No results for %s"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Search for items"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Search results updated."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:6
+#: dist/js/bookings-schedule.js:6
+msgid "Clear all"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Bookings Calendar"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Bookings Schedule"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display a schedule of upcoming events or classes"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Select bookable products to display"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Clear all products"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Products"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Your store doesn't have any products."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Search for products to display"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "%d product selected"
+msgid_plural "%d products selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Product search results updated."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Edit"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display a selection of specific bookable products in a list"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display different products"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Done"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Specific Bookable Products"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "No products are selected."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Clear all categories"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Categories"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Your store doesn't have any categories."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Search for categories to display"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "%d category selected"
+msgid_plural "%d categories selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Category search results updated."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Specific bookable categories"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display a selection of specific bookable categories in a grid"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Specific Bookable Categories"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "No categories are selected."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Clear all resources"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Resources"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Your store doesn't have any resources."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Search for resources to display"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "%d resource selected"
+msgid_plural "%d resources selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Resource search results updated."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Specific bookable resources"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display a selection of specific bookable resources in a grid"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Specific Bookable Resources"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "No resources are selected."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "You haven't created any bookable products."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Create one now."
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Schedule settings"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Include"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Display settings"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Time range"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+#: dist/js/bookings-schedule.js:16
+msgid "Show date navigation"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+msgid "Show sold out times"
+msgstr ""
+
+#: dist/js/bookings-calendar.js:16
+msgid "Show customers your upcoming availability in calendar form."
+msgstr ""
+
+#: dist/js/bookings-schedule.js:16
+msgid "Show all available times"
+msgstr ""
+
+#: dist/js/bookings-schedule.js:16
+msgid "Maximum number of times to show at first"
+msgstr ""
+
+#: dist/js/bookings-schedule.js:16
+msgid "Show empty dates"
+msgstr ""
+
+#: dist/js/bookings-schedule.js:16
+msgid "Show customers your upcoming availability in list form."
+msgstr ""
